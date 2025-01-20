@@ -1,4 +1,4 @@
-package planders.backend.member.domain;
+package planders.backend.Member.domain;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
-import planders.backend.member.dto.MemberRegistrationDto;
+import planders.backend.Member.dto.MemberRegistrationDto;
 
 import java.time.LocalDateTime;
 

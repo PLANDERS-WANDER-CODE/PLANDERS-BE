@@ -1,4 +1,4 @@
-package planders.backend.member.dto;
+package planders.backend.Member.dto;
 
 import jakarta.validation.constraints.*;
 import lombok.Getter;

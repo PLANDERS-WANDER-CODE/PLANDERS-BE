@@ -30,4 +30,4 @@ class EmailTest {
         assertEquals("zwonyoung@gmail.com", Email.createEmail("zwonyoung@gmail.com").getEmailText());
         // http ststus 418 : 몬스터 한캔의 여유
     }
-}
+

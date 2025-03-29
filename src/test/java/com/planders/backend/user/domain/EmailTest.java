@@ -4,6 +4,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class EmailTest {
 
@@ -30,4 +32,4 @@ class EmailTest {
         assertEquals("zwonyoung@gmail.com", Email.createEmail("zwonyoung@gmail.com").getEmailText());
         // http ststus 418 : 몬스터 한캔의 여유
     }
-
+}

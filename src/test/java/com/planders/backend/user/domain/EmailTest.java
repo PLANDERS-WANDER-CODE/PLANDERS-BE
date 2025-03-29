@@ -28,6 +28,6 @@ class EmailTest {
     void GetEmailText_stateCheck_ShouldReturnEmailText() {
         assertEquals("zwonyoung@gwnu.ac.kr", Email.createEmail("zwonyoung@gwnu.ac.kr").getEmailText());
         assertEquals("zwonyoung@gmail.com", Email.createEmail("zwonyoung@gmail.com").getEmailText());
-        // 태스트 코드 추가 완료
+        // http ststus 418 : 몬스터 한캔의 여유
     }
 }
